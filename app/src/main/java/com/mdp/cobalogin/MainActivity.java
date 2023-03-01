@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         if (KL.isLogin(MainActivity.this,keySP) == true) {
             setContentView(R.layout.activity_main);
+
+            tv_sesi = findViewById(R.id.tv_sesi);
+            btn_logout = findViewById(R.id.btn_logout);
+
+
         }
         else {
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
@@ -29,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        tv_sesi = findViewById(R.id.tv_sesi);
-        btn_logout = findViewById(R.id.btn_logout);
+
 
 
 

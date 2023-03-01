@@ -38,7 +38,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_logout"
         android:text="logout"
-        android:layout_margin="16dp"
+        android:layout_margin="32dp"
         app:cornerRadius="24dp"
         android:backgroundTint="@color/purple_700"/>
+
+
 </LinearLayout>
